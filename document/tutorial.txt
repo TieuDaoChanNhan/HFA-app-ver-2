@@ -1,0 +1,8 @@
+/*1) convert image to monochrome with https://monochrome.imageonline.co/index.php 
+2) change image size to 128x64
+3) convert image to hex https://javl.github.io/image2cpp/
+4) paste hex to arduino and run
+--------
+example code: https://wokwi.com/projects/403283301135921153*/
+
+https://ezgif.com/resize?err=empty // convert gif to image 
