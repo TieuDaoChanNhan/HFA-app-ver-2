@@ -1,6 +1,8 @@
 # Health For All (HFA) - A Healthcare App for Remote Health Monitoring and Support
 
-**Health For All (HFA)** is an innovative mobile application designed to improve access to healthcare for underserved communities, such as the elderly, disabled, and individuals in remote or low-income areas. The app allows users to monitor their health, securely store medical data, and easily connect with healthcare professionals, especially doctors, for consultation and diagnosis.
+**Health For All (HFA)** is an innovative mobile application designed to improve access to healthcare for underserved communities, such as the elderly, disabled, and individuals in remote or low-income areas. The app allows users to monitor their health, securely store medical data, and easily connect with healthcare professionals for consultation and diagnosis.
+
+---
 
 ## Key Features
 
@@ -12,32 +14,76 @@ The app integrates with a compact and portable health monitoring device that tra
 - **Heart-Lung Sounds**
 - **Temperature**
 
-The device is designed to be user-friendly and easy to operate, with data wirelessly transmitted to the app. This enables users to monitor their health continuously and share the data with doctors for expert evaluation.
+Data is wirelessly transmitted to the app, allowing users to monitor their health and share the results with doctors for expert evaluation.
 
 ### App Features
-- **User Profile Management**: Users can create and manage personalized health profiles.
-- **Health Record Management**: The app stores health data from the monitoring device, organizing and displaying it in a user-friendly manner.
-- **Doctor Connectivity**: Patients can connect with healthcare professionals via the app, enabling remote consultations. Doctors review the data and provide diagnoses based on the information provided.
-- **Prescription Management**: Users can scan, store, and manage their prescriptions through the app.
-- **Medication and Measurement Reminders**: The app reminds users to take medication and perform health measurements.
-- **Health Alerts and Notifications**: Critical health data triggers alerts and notifications, keeping users informed about their health status.
-- **Chatbot Assistance**: A built-in chatbot provides guidance on health and app usage, offering basic advice and directing users to seek professional care when necessary.
+- **User Profile Management**: Create and manage personalized health profiles.
+- **Health Record Management**: Organize and display health data from the monitoring device.
+- **Doctor Connectivity**: Enable remote consultations with healthcare professionals.
+- **Prescription Management**: Scan, store, and manage prescriptions.
+- **Reminders**: Notify users to take medications or perform health measurements.
+- **Health Alerts**: Inform users of critical health data.
+- **Chatbot Assistance**: Offer basic health advice and app guidance.
+
+---
+
+## Technologies Used
+
+### 1. **Frontend Development**
+- **Flutter**: Used for cross-platform app development, enabling the app to run seamlessly on Android, iOS, and web platforms.  
+- **Material Design**: Ensures a modern and user-friendly interface.  
+- **fl_chart**: Displays dynamic and interactive ECG-style graphs with over 500 data points.
+
+### 2. **Backend Development**
+- **Firebase**: 
+  - Real-time database management for storing and synchronizing user data securely.
+  - Handles authentication, ensuring reliable and secure user sign-ins.
+  - Cloud Firestore: Organizes and retrieves health records and other app data efficiently.
+
+### 3. **Data Communication**
+- **Bluetooth Low Energy (BLE)**: Enables efficient and real-time communication between the health monitoring device and the app.
+
+### 4. **Authentication**
+- **Google OAuth**: Allows secure and seamless user login.
+
+### 5. **Image Processing**
+- **YOLOv8 Model**: Utilized for identifying and analyzing specific regions in scanned prescriptions, ensuring accurate data extraction.
+
+### 6. **Link Handling**
+- **health**: Handles deep linking to integrate the app with external resources, such as Samsung Health via Health Connect.
+
+---
 
 ## Impact and Necessity
-HFA aims to address the healthcare access gap for individuals who cannot frequently visit doctors or hospitals. By providing remote monitoring and easy communication with doctors, the app ensures that users, especially those in rural areas, have access to healthcare when needed, improving health outcomes and ensuring timely interventions.
+HFA addresses healthcare access disparities by enabling:
+- Remote monitoring for users in rural or underserved areas.
+- Convenient communication between patients and healthcare providers.
+- Improved health outcomes through timely interventions and continuous monitoring.
+
+---
 
 ## Target Audience
-- **Elderly Individuals**: People who may have difficulty traveling to healthcare facilities.
-- **Low-Income Communities**: Those who cannot afford frequent doctor visits.
-- **People with Chronic Conditions**: Individuals requiring regular monitoring of health metrics like heart rate, SPO2, and ECG.
+- **Elderly Individuals**: Reduce travel for healthcare.
+- **Low-Income Communities**: Affordable remote healthcare.
+- **Chronic Condition Patients**: Regular health monitoring.
+
+---
 
 ## Download the App
-The HFA app is available for download from the following link:  
+The HFA app is available for download:  
 [**Download HFA App**](https://drive.google.com/file/d/12APl8KQVNFzLmk2Lk6lEC6o_Q6Jbc7QD/view?usp=sharing)
 
+---
+
 ## Additional Resources
-- **SFT Research Resource**: [**Access SFT Research**](https://drive.google.com/drive/u/0/folders/1urGEq8EOp1WiWo0_IhsH_1f-cnUYpnIf)
-- **More Details about the Project**: [**Project Details**](https://drive.google.com/drive/u/0/folders/1dB_FHNnQ1XOn9a3TZfbFJOewPzvK6S1V)
+- **SFT Research Resource**: [**Access SFT Research**](https://drive.google.com/drive/u/0/folders/1urGEq8EOp1WiWo0_IhsH_1f-cnUYpnIf)  
+- **More Details About the Project**: [**Project Details**](https://drive.google.com/drive/u/0/folders/1dB_FHNnQ1XOn9a3TZfbFJOewPzvK6S1V)
+
+---
 
 ## Future Developments
-The HFA app is continuously evolving. Future updates aim to expand its capabilities, integrate additional health devices, and improve its user interface. Additionally, there are plans for collaboration with medical institutions to enhance the app’s features and provide better healthcare solutions.
+HFA is evolving, with plans to:
+- Enhance device capabilities for additional health metrics.
+- Expand the app’s functionality to integrate advanced health analysis.
+- Collaborate with medical institutions to enrich features and improve accessibility.
+
