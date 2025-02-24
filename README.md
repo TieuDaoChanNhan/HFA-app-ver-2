@@ -93,7 +93,7 @@ Explore our app design:
 ## Additional Resources
 - **SFT Research Resource**: [**Access SFT Research**](https://drive.google.com/drive/u/0/folders/1urGEq8EOp1WiWo0_IhsH_1f-cnUYpnIf)  
 - **More Details About the Project**: [**Project Details**](https://drive.google.com/drive/u/0/folders/1dB_FHNnQ1XOn9a3TZfbFJOewPzvK6S1V)
-
+- **Project Plan Document**: [**View Project Plan**](https://docs.google.com/spreadsheets/d/1qqJ7_EOLVirXMBo83R7SNgTPwgM9nL1LIKI39oqvpks/edit?usp=sharing)
 ---
 
 ## Future Developments
