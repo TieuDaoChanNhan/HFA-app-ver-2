@@ -52,8 +52,8 @@ Data is wirelessly transmitted to the app, allowing users to monitor their healt
 ### 6. **Audio Integration**
 - **just_audio Package**: Allows playback of recorded heart-lung sound files in the app.
 
-### 7. **Link Handling**
-- **app_links**: Handles deep linking to integrate the app with external resources, such as Samsung Health via Health Connect.
+### 7. **Health Index Collection**
+- **health**: Handles deep linking to integrate the app with external resources, such as Samsung Health via Health Connect.
 
 ---
 
